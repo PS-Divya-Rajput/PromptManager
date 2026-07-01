@@ -1,17 +1,21 @@
 # PromptVault
 
-PromptVault is a command-line application developed using Python and Object-Oriented Programming (OOP). It helps users store, organize, search, edit, and manage AI prompts.
+PromptVault is a command-line application developed using Python and Object-Oriented Programming (OOP). It helps users store, organize, search, edit, and manage AI prompts in a structured way.
+
+## Purpose
+
+The project demonstrates the implementation of core OOP concepts by building a practical prompt management system. It allows users to perform basic CRUD operations while storing data in a JSON file.
 
 ## Features
 
-- Add Prompt
-- View Prompts
-- Search Prompt
-- Edit Prompt
-- Delete Prompt
-- Toggle Favorite
-- Save Data in JSON
-- View Statistics
+- Add new AI prompts
+- View all saved prompts
+- Search prompts by title, category, AI tool, or content
+- Edit existing prompts
+- Delete prompts
+- Mark and unmark prompts as favorites
+- Store prompt data in JSON format
+- View prompt statistics
 
 ## OOP Concepts Used
 
@@ -21,15 +25,15 @@ PromptVault is a command-line application developed using Python and Object-Orie
 - Inheritance
 - Polymorphism
 
-## Technologies
+## Technologies Used
 
 - Python 3
 - JSON
-- VS Code
+- Object-Oriented Programming (OOP)
 
 ## Project Structure
 
-```
+```text
 PromptVault/
 │
 ├── main.py
@@ -38,18 +42,14 @@ PromptVault/
 ├── prompt_manager.py
 ├── prompts.json
 ├── README.md
-└── debugging_report.md
-```
-
-## How to Run
-
-```bash
-python main.py
+├── debugging_report.md
+└── images/
 ```
 
 ## Future Improvements
 
-- GUI using Tkinter
-- User authentication
+- Desktop GUI using Tkinter
 - Database integration
-- Cloud storage
+- User authentication
+- Cloud-based prompt storage
+- AI API integration for prompt generation
