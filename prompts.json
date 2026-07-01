@@ -1,0 +1,88 @@
+[
+    {
+        "type": "Prompt",
+        "id": 1,
+        "title": "Python Basics",
+        "category": "Programming",
+        "ai_tool": "Chatgpt",
+        "content": "Explain python Basics to brush up all the concepts practically ",
+        "favorite": true
+    },
+    {
+        "type": "Prompt",
+        "id": 2,
+        "title": "Professional Email Writer",
+        "category": "Communication",
+        "ai_tool": "Claude",
+        "content": "Rewrite the following email in a professional and concise tone while preserving the original intent.",
+        "favorite": false
+    },
+    {
+        "type": "CodePrompt",
+        "id": 3,
+        "title": "Python Code Reviewer",
+        "category": "Development",
+        "ai_tool": "ChatGPT",
+        "content": "Review the following Python code for readability, bugs, performance, and adherence to PEP 8 standards. Suggest improvements with explanations.",
+        "favorite": true,
+        "language": "Python"
+    },
+    {
+        "type": "CodePrompt",
+        "id": 4,
+        "title": "SQL Query Optimizer",
+        "category": "Database",
+        "ai_tool": "Claude",
+        "content": "Analyze the SQL query below and suggest indexing strategies, query optimizations, and possible performance improvements.",
+        "favorite": false,
+        "language": "SQL"
+    },
+    {
+        "type": "Prompt",
+        "id": 5,
+        "title": "Requirement Analyzer",
+        "category": "Business Analysis",
+        "ai_tool": "Gemini",
+        "content": "Read the following business requirement and identify functional requirements, non-functional requirements, assumptions, risks, and missing information.",
+        "favorite": false
+    },
+    {
+        "type": "CodePrompt",
+        "id": 6,
+        "title": "API Documentation Generator",
+        "category": "Development",
+        "ai_tool": "Claude",
+        "content": "Generate clear API documentation including endpoint description, request body, response format, status codes, and example requests.",
+        "favorite": true,
+        "language": "REST API"
+    },
+    {
+        "type": "Prompt",
+        "id": 7,
+        "title": "Resume Improvement Assistant",
+        "category": "Career",
+        "ai_tool": "ChatGPT",
+        "content": "Review my resume and suggest improvements based on the job description. Highlight missing skills, rewrite bullet points using action verbs, and improve ATS compatibility.",
+        "favorite": false
+    },
+    {
+        "type": "CodePrompt",
+        "id": 8,
+        "title": "Unit Test Generator",
+        "category": "Testing",
+        "ai_tool": "GitHub Copilot",
+        "content": "Generate comprehensive unit tests covering normal cases, edge cases, and exception handling for the following Python function.",
+        "favorite": true,
+        "language": "Python"
+    },
+    {
+        "type": "CodePrompt",
+        "id": 10,
+        "title": "Dockerfile Optimizer",
+        "category": "DevOps",
+        "ai_tool": "Claude",
+        "content": "Review the Dockerfile and suggest improvements to reduce image size, improve build caching, enhance security, and follow Docker best practices.",
+        "favorite": false,
+        "language": "Docker"
+    }
+]
